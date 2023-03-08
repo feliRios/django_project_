@@ -10,3 +10,6 @@ def inicio(request):
 
 def index(request):
     return render(request, 'Staff/index.html')
+
+def index_dos(request):
+    return render(request, 'Staff/index_2.html')
